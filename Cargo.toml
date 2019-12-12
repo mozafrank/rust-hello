@@ -1,0 +1,9 @@
+[package]
+name = "rust-hello"
+version = "0.1.0"
+authors = ["Adam Frank <adam@antilogo.org>"]
+
+[dependencies]
+
+[dependencies.iron]
+version = "*"
