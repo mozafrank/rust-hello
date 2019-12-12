@@ -2,8 +2,6 @@ FROM ekidd/rust-musl-builder AS build
 WORKDIR /home/rust/src
 COPY Cargo.toml Cargo.lock ./
 COPY src ./src
-RUN pwd
-RUN ls -la
 RUN cargo build --release
 
 FROM scratch
